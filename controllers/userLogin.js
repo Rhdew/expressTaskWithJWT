@@ -37,12 +37,4 @@ const userLogin = async (req, res) => {
   }
 };
 
-function getRandomInt(max) {
-  let arr = [];
-  for (let i = 0; i < 20; i++) {
-    arr[i] = Math.floor(Math.random() * Math.floor(max));
-  }
-  return arr.join("");
-}
-
 module.exports = userLogin;
